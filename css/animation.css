@@ -1,0 +1,166 @@
+/* ==========================================
+   PORTFOLIO ANIMATIONS
+========================================== */
+
+
+.hero-content {
+
+    animation:
+        fadeUp 0.8s ease forwards;
+}
+
+
+.hero-visual {
+
+    animation:
+        fadeIn 1s ease forwards;
+}
+
+
+/* ==========================================
+   MOVING LIGHT
+========================================== */
+
+@keyframes lightMove {
+
+    0%,
+    100% {
+
+        transform:
+            translate(0, 0);
+    }
+
+    50% {
+
+        transform:
+            translate(-70px, 50px);
+    }
+}
+
+
+/* ==========================================
+   CONTENT ENTRANCE
+========================================== */
+
+@keyframes fadeUp {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            translateY(25px);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            translateY(0);
+    }
+}
+
+
+/* ==========================================
+   IMAGE ENTRANCE
+========================================== */
+
+@keyframes fadeIn {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            scale(0.95);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            scale(1);
+    }
+}
+
+
+/* ==========================================
+   AVATAR FLOAT
+========================================== */
+
+@keyframes avatarFloat {
+
+    0%,
+    100% {
+
+        transform:
+            translateY(0);
+    }
+
+    50% {
+
+        transform:
+            translateY(-8px);
+    }
+}
+
+
+/* ==========================================
+   AVATAR GLOW
+========================================== */
+
+@keyframes avatarGlow {
+
+    0%,
+    100% {
+
+        transform:
+            scale(1);
+    }
+
+    50% {
+
+        transform:
+            scale(1.06);
+    }
+}
+
+
+/* ==========================================
+   DECORATIVE SHAPES
+========================================== */
+
+@keyframes floatOne {
+
+    0%,
+    100% {
+
+        transform:
+            translateY(0);
+    }
+
+    50% {
+
+        transform:
+            translateY(-12px);
+    }
+}
+
+
+@keyframes floatTwo {
+
+    0%,
+    100% {
+
+        transform:
+            translateY(0);
+    }
+
+    50% {
+
+        transform:
+            translateY(10px);
+    }
+}
